@@ -1,60 +1,75 @@
-/* Add a black background color to the top navigation */
-.topnav {
-    background-color: white;
-    overflow: hidden;
-  }
-  
-  /* Style the links inside the navigation bar */
-  .topnav a {
-    float: right;
-    color: #cccccc;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  /* Change the color of links on hover */
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  /* Add a color to the active/current link */
-  .topnav a.active {
-    background-color: #4CAF50;
-    color: white;
-  }
-  
-h1 {
-  font-family: 'Georgia', Times, Times New Roman, serif;
-  color: #ffffff;
-  background-color: #4aaaa5;
-  border: 1px solid #cccccc;
+* {
+    margin:0;
+    padding:0;
 }
-h2 {
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    color: #4aaaa5;
+html, body {
+    height: 100%;
+    background-image: url(images/what-the-hex.png);
+}
+#nav{
+    background:white;
+    position: absolute;
+    width: 100%;
+}
+h1{
+    float:left;
+    color: white;
+    background: teal;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background:white;
+    }
+
+li {
+    float: right;
+    
+      }
+      
+li a {
+    display: block;
+    color: rgba(128, 128, 128, 0.678);
+    padding: 10px;
+    text-decoration: none;
+}
+h2{
+    color:teal;
+    margin: 50px;
+    padding: 5%;
+    border-bottom: solid gray;
+}
+.clearfix:before,
+.clearfix:after{
+    content:" ";
+    display: block;
+}
+.clearfix:after{
+    clear: both;
+    overflow: auto;
+}
+.content{
+    background:white;
+    height: 50%;
+    width:960px;
+    margin: 0 auto;
+    
+}
+#dkphoto{
+    float:left;
+    vertical-align: text-top;
+    overflow: auto;
 }
 
-  p {
-    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color:#777777;
-  }
-  html, body {
-    height: 100%;
-    margin: 0;
-  }
-  .content {
-    min-height: 100%;
-  }
-  .content-inside {
-    padding: 20px;
-    padding-bottom: 50px;
-  }
-  .footer {
-    height: 50px;
-    margin-top: -50px;
+footer {
     background-color: #666666;
-    border: 8px solid  #4aaaa5;
+    padding: 10px;
+    text-align: center;
+    color: lightgray;
+    border-top: 8px solid  #4aaaa5;
+    position: absolute;
+    bottom:0;
+    width:100%;
   }
