@@ -52,7 +52,7 @@ h2{
 }
 .content{
     background:white;
-    height: 50%;
+    height: 70%;
     width:960px;
     margin: 0 auto;
     
@@ -62,7 +62,19 @@ h2{
     vertical-align: text-top;
     overflow: auto;
 }
-
+form{
+    padding: 10%;
+}
+.button {
+    background-color: teal; /* teal */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
 footer {
     background-color: #666666;
     padding: 10px;
