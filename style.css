@@ -75,22 +75,21 @@ h2{
 .content{
     height: 70%;
     width:960px;
+    padding: 10px;
     margin: 0 auto;
     color:#777777;
     background-color:#ffffff;
     border-color: #dddddd;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
-.info{ 
-    padding:5%;
-}
+/*
 
   .clearfix{
     content:" ";
     display: block;
     clear: both;
     overflow: auto;
-}
+}*/
 footer {
     background-color: #666666;
     padding: 10px;
