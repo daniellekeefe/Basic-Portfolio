@@ -65,11 +65,11 @@ a:visited{
 }
 h2{
     color:#4aaaa5;
-    border-bottom-style: solid;
     border-bottom-color:#cccccc;
     padding-top: 10px;
     padding-bottom: 10px;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: medium;
     }
 /* general content box*/
 .content{
@@ -99,6 +99,7 @@ footer {
     border-top: 8px solid #4aaaa5;
     position: absolute;
     bottom: 0;
-    width: 100%;
+    left:0;
+    width: 100%;   
 }
 
