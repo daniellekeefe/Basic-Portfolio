@@ -4,9 +4,12 @@
     margin:0;
     padding:0;
 }
+
 html, body {
     height: 100%;
     background-image: url(images/what-the-hex.png);
+    width: 960px;
+    margin:0 auto;
 }
 .clearfix{
     content:" ";
@@ -27,7 +30,7 @@ html, body {
   padding: 0px 14px 0px 16px;
   text-decoration: none;
   font-size: 17px;
-  font-family: 'Georgia', Times, Times New Roman, serif
+  font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 /* Change the color of links on hover */
@@ -51,15 +54,14 @@ a:visited{
   h1{
     background-color: #4aaaa5;
     color:#ffffff;
-    margin-left:119.5px;
-    font-family: 'Georgia', Times, Times New Roman, serif
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: xx-large;
   }
 /* Right-aligned section inside the top navigation */
 .topnav-right {
   float: right;
   color: #666666;
   Background-color: #ffffff;
-  margin-right: 119.5px;
 }
 h2{
     color:#4aaaa5;
@@ -67,7 +69,7 @@ h2{
     border-bottom-color:#cccccc;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-family: 'Georgia', Times, Times New Roman, serif
+    font-family: 'Georgia', Times, Times New Roman, serif;
     }
 /* general content box*/
 .content{
@@ -82,20 +84,21 @@ h2{
 .info{ 
     padding:5%;
 }
+
+  .clearfix{
+    content:" ";
+    display: block;
+    clear: both;
+    overflow: auto;
+}
 footer {
     background-color: #666666;
     padding: 10px;
     text-align: center;
     color: lightgray;
-    border-top: 8px solid  #4aaaa5;
+    border-top: 8px solid #4aaaa5;
     position: absolute;
-    bottom:0;
-    width:100%;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-  }
+    bottom: 0;
+    width: 100%;
+}
 
-  .clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
