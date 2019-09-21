@@ -5,7 +5,7 @@
     float: left;
   }
   div.gallery:hover {
-    border: 1px solid ##4aaaa5;
+    border: 1px solid #4aaaa5;
   }
   
   div.gallery img {
